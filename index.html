@@ -6,34 +6,42 @@
     <link rel="stylesheet" href="style.css">
     <title>Admin Dashboard</title>
 </head>
-<body class="body">
-    <div class="body-left">
-        <aside class="sidebar">
-            <h1>
-            </h1>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
-                </ul>
-                <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
-                </ul>
-            </nav>
+<body class="dashboard-body">
+    <div class="dashboard-left">
+        <aside class="admin-sidebar">
+            <div class="sidebar-header">
+                <img class="logo-img" src="#">
+                <h1 class="logo-name">Dashboard</h1>
+            </div>
+            <div class="nav-one">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Profile</li>
+                        <li>Messages</li>
+                        <li>History</li>
+                        <li>Tasks</li>
+                        <li>Communities</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav-two">
+                <nav>
+                    <ul>
+                        <li>Settings</li>
+                        <li>Support</li>
+                        <li>Privacy</li>
+                    </ul>
+                </nav>
+            </div>
         </aside>
     </div>
-    <div class="body-right">
-            <header class="header">
+    <div class="dashboard-right">
+            <header class="admin-header">
                 <div class="header-wrap">
                     <div class="search-bar">
                     </div>
-                    <div class="user-info">
+                    <div class="user-profile-info">
                         <img class="user-profile">
                         <p class="user-name">Jamie Lee</p>
                     </div>
@@ -47,14 +55,14 @@
                         </div>
                     </div>
                     <div class="right-container">
-                        <buttons>New</buttons>
-                        <buttons>Upload</buttons>
-                        <buttons>Share</buttons>
+                        <button class="new-button">New</button>
+                        <button class="upload-button">Upload</button>
+                        <button class="share-button">Share</button>
                     </div>
                 </div>
             </header>
             <main class="main">
-                <div class="left-main-column">
+                <div class="projects-column">
                     <div class="projects">
                         <p>Your Projects</p>
                         <div class="project-cards-container">
@@ -67,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="right-main-column">
+                <div class="announcements-column">
                     <div class="announcements">
                         <p>Announcements</p>
                         <div class="announcements-wrapper">
