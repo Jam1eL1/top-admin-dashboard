@@ -1,4 +1,9 @@
 body {
+    margin: 0; /* Reset margin for body */
+}
+
+.container {
     display: grid;
-    grid-template: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-columns: 25% 1fr;
 }
